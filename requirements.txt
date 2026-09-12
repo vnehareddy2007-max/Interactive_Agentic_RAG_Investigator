@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+pydantic
+networkx
+sentence-transformers
+rank-bm25
+scikit-learn
+numpy
+streamlit
+requests
+python-multipart
+python-dotenv
+openai
