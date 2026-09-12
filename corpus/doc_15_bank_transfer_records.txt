@@ -1,0 +1,22 @@
+DOCUMENT ID: doc_15
+TYPE: Financial Records
+SOURCE: Court-Authorized Bank Transaction Extract
+
+Account: Rohan Desai, Personal Savings
+
+Q3 Vendor payment batches (company account, approved by R. Desai):
+- Batch A: $18,400 to "Northline Supplies Pvt Ltd" (newly registered vendor,
+  no prior transaction history with Skyline)
+- Batch B: $22,150 to same vendor, two weeks later
+- Batch C: $19,800 to same vendor, one week before the retreat
+
+Cross-reference: "Northline Supplies Pvt Ltd" registration records list
+Rohan Desai's cousin, Arjun Desai, as company director.
+
+Personal account activity: Rohan Desai's personal savings account shows
+three incoming transfers totaling $9,200 from an account linked to Arjun
+Desai, occurring within 5 days of each vendor payment batch above.
+
+This pattern is consistent with a kickback scheme: inflated/fake vendor
+invoices approved by Rohan Desai, paid to a shell vendor controlled by his
+cousin, with a cut transferred back to Rohan personally.

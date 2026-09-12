@@ -1,0 +1,29 @@
+DOCUMENT ID: doc_11
+TYPE: Interrogation Transcript
+SOURCE: Detective interview with Rohan Desai (Day 2)
+
+DETECTIVE: You said you don't handle vendor payments, but our records show
+you approved 6 vendor invoices in Q3.
+
+ROHAN: I... process some invoices, yes, but I don't decide vendor
+relationships. That's a technicality.
+
+DETECTIVE: The audit Aditya scheduled was specifically flagged for Q3
+vendor payments. Did that concern you?
+
+ROHAN: I told you, I wasn't worried. I mean, I didn't do anything wrong.
+
+DETECTIVE: You said you left the party at 11:30 PM with a headache. Security
+logs show your badge was scanned back into the pavilion area at 11:38 PM,
+not your room.
+
+ROHAN: I... must have gone back for my jacket. I forgot I left it there.
+
+DETECTIVE: Before joining Skyline, you interned for a year at Veridian
+Labs, a chemical manufacturing company, correct?
+
+ROHAN: That was three years ago. I worked in their finance department, not
+the lab. I barely went near the production floor.
+
+DETECTIVE: We'll need you to account for your movements between 11:10 PM
+and 11:40 PM in more detail. This interview isn't over.

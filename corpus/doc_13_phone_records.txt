@@ -1,0 +1,19 @@
+DOCUMENT ID: doc_13
+TYPE: Phone Records
+SOURCE: Telecom Provider, Court-Authorized Extraction
+
+Relevant call/text activity, night of incident:
+
+10:42 PM - Rohan Desai receives call from unknown number (later traced to a
+           prepaid SIM, untraceable to a named individual). Duration: 3 min.
+11:00 PM - Rohan Desai sends text to unknown number: "It has to be tonight,
+           the audit starts Monday."
+11:03 PM - Reply received: "Understood. Be careful."
+11:41 PM - Priya Nair calls Kavita Menon (lawyer) - unrelated to case,
+           discusses unrelated contract matter, confirmed by Kavita Menon's
+           statement (doc_17).
+11:50 PM - Multiple outgoing calls from various guests to emergency
+           services and colleagues, consistent with the incident aftermath.
+
+No calls or texts from Vikram Shah or Meera Iyer during the relevant window
+show any unusual activity.

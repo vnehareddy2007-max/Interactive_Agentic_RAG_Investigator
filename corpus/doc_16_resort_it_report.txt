@@ -1,0 +1,19 @@
+DOCUMENT ID: doc_16
+TYPE: Technical Incident Report
+SOURCE: Lakeview Resort IT Department
+
+RE: CCTV Camera 3 (Pavilion 2 Bar Area) signal interruption, 11:12-11:18 PM
+
+Our review of the network switch logs shows the camera lost connection due
+to a physical disconnection at the junction box located behind the bar
+counter, not a software or power failure. The junction box is accessible
+only by ducking behind the bar counter itself, an area guests do not
+normally have reason to access.
+
+We have no camera footage of who caused the disconnection, as the outage
+by definition affected the only camera covering that specific angle.
+Backup camera 4, covering the pavilion entrance from a distance, shows
+several guests passing in the background during this window but is too far
+to identify actions at the bar counter itself.
+
+This incident has been flagged as suspicious and shared with investigators.

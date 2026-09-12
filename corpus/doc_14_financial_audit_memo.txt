@@ -1,0 +1,19 @@
+DOCUMENT ID: doc_14
+TYPE: Internal Memo
+SOURCE: Skyline Analytics Finance Department
+
+FROM: Aditya Rao (CEO)
+TO: External Audit Firm (Kessler & Rao Associates)
+DATE: 9 days before incident
+RE: Q3 Vendor Payment Review
+
+"I've noticed discrepancies in three vendor payment batches processed in
+Q3, all approved through the finance analyst tier rather than director
+approval, which is against our normal threshold policy for amounts over
+$5,000. I want a full forensic audit of all vendor payments processed by
+junior finance staff in Q3, starting the Monday after the retreat. Please
+treat this as confidential until the audit begins."
+
+Internal routing shows this memo was only visible to Aditya Rao and the
+external audit firm — not shared with the finance team, including Rohan
+Desai, through official channels.

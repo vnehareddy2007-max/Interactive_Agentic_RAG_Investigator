@@ -1,0 +1,25 @@
+DOCUMENT ID: doc_12
+TYPE: Security Badge & CCTV Log
+SOURCE: Lakeview Resort Security System
+
+Badge scan and partial CCTV log for Pavilion 2 (bar area), night of the
+incident:
+
+10:50 PM - Vikram Shah badge scan, bar area (brief visit)
+11:05 PM - Priya Nair badge scan, bar area
+11:10 PM - Rohan Desai badge scan, bar area
+11:12 PM - CCTV camera 3 (covering bar counter) shows a 6-minute gap in
+           recording, logged as "signal interruption" - unresolved by
+           resort IT staff. This gap overlaps the estimated poisoning
+           window (11:12-11:27 PM per doc_03).
+11:18 PM - CCTV resumes; Meera Iyer visible near bar, alone, retrieving
+           water.
+11:29 PM - Priya Nair and Vikram Shah visible together at firepit table
+           (consistent with both their statements).
+11:30 PM - Rohan Desai badge scan, exit toward guest rooms.
+11:38 PM - Rohan Desai badge scan, re-entry to pavilion area.
+11:44 PM - Estimated time of death per forensic report.
+11:47 PM - Victim found collapsed; general commotion, multiple badge scans.
+
+Note: The camera signal interruption at 11:12 PM has not been explained by
+resort staff. IT report (doc_16) provides further detail.

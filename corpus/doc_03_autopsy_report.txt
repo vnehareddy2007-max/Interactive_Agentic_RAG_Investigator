@@ -1,0 +1,23 @@
+DOCUMENT ID: doc_03
+TYPE: Forensic Autopsy Report
+SOURCE: District Forensic Laboratory
+
+SUBJECT: Aditya Rao
+CAUSE OF DEATH: Acute potassium cyanide poisoning.
+
+Toxicology confirms cyanide was present in the whiskey glass recovered from
+the scene (doc_02) at a lethal concentration. Stomach contents indicate
+ingestion occurred approximately 20-35 minutes before death, placing the
+poisoning window between 11:12 PM and 11:27 PM.
+
+Cyanide of this purity is not commonly available; the lab notes it is
+consistent with compounds used in certain industrial/laboratory settings,
+not household products. This substantially narrows the pool of people with
+plausible access to the poison.
+
+No other guests at the retreat exhibited any symptoms consistent with
+poisoning, indicating the substance was introduced directly and specifically
+into the victim's glass rather than a shared source (e.g., a punch bowl).
+
+Time of death: 11:44 PM (± 3 minutes), consistent with witness reports of
+the victim collapsing at approximately 11:47 PM.

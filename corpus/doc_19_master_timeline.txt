@@ -1,0 +1,33 @@
+DOCUMENT ID: doc_19
+TYPE: Investigation Timeline Summary
+SOURCE: Compiled by Detective Division from doc_02, doc_03, doc_12, doc_13
+
+10:42 PM - Rohan Desai receives call from untraceable prepaid number.
+10:50 PM - Vikram Shah briefly at bar.
+11:00 PM - Rohan Desai texts unknown contact: "It has to be tonight, the
+           audit starts Monday." Reply: "Understood. Be careful."
+11:05 PM - Priya Nair at bar area.
+11:10 PM - Rohan Desai at bar area.
+11:12 PM - CCTV camera 3 loses signal (physical disconnection at junction
+           box behind bar counter) - outage lasts until 11:18 PM.
+11:12-11:27 PM - Forensic estimated poisoning window (per doc_03).
+11:18 PM - CCTV resumes; Meera Iyer seen alone near bar getting water.
+11:29 PM - Priya Nair and Vikram Shah seen together at firepit (mutually
+           corroborated by both statements, consistent with badge data).
+11:30 PM - Rohan Desai badge scan, exits toward guest rooms (per his
+           statement, due to a headache).
+11:38 PM - Rohan Desai badge scan, re-enters pavilion area (contradicts his
+           original statement that he returned directly to his room and
+           stayed there).
+11:41 PM - Priya Nair on phone with her attorney (unrelated matter,
+           corroborated by doc_17).
+11:44 PM - Estimated time of death.
+11:47 PM - Victim found collapsed near the bar.
+
+OPEN QUESTIONS FLAGGED FOR INVESTIGATION:
+1. Who physically disconnected camera 3, and why, during the exact
+   poisoning window?
+2. Why did Rohan Desai's account of his movements after 11:30 PM not match
+   the badge log?
+3. How did Rohan Desai learn of the confidential Q3 audit (doc_14) before
+   it was ever shared with the finance team?
