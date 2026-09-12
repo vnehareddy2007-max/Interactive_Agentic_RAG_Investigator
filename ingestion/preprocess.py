@@ -1,13 +1,9 @@
 """
-ingestion/preprocess.py
 
 Loads the raw corpus documents, sends each one to the LLM (Groq) to extract
 candidates, entities, relationships, and evidence items, then merges
 everything into a single structured result matching schemas.IngestResponse.
 
-Run this file directly to test extraction on the corpus before wiring it
-into the API:
-    python ingestion/preprocess.py
 """
 
 import os
