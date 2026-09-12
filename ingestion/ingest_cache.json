@@ -1,0 +1,1264 @@
+{
+  "num_documents": 19,
+  "candidates": [
+    {
+      "id": "cand_01",
+      "name": "Priya Nair",
+      "role": "Co-Founder",
+      "summary": null
+    },
+    {
+      "id": "cand_02",
+      "name": "Vikram Shah",
+      "role": "Investor",
+      "summary": null
+    },
+    {
+      "id": "cand_03",
+      "name": "Meera Iyer",
+      "role": "Head of HR",
+      "summary": null
+    },
+    {
+      "id": "cand_04",
+      "name": "Rohan Desai",
+      "role": "?",
+      "summary": null
+    }
+  ],
+  "entities": [
+    {
+      "id": "ent_01",
+      "name": "Skyline Analytics Pvt Ltd",
+      "type": "organization",
+      "description": "Data analytics firm founded 6 years ago"
+    },
+    {
+      "id": "ent_02",
+      "name": "Aditya Rao",
+      "type": "person",
+      "description": "Co-Founder & CEO, 34, victim of investigation"
+    },
+    {
+      "id": "ent_03",
+      "name": "lakeside resort",
+      "type": "place",
+      "description": "Location of company retreat and death"
+    },
+    {
+      "id": "ent_04",
+      "name": "Series B anniversary",
+      "type": "event",
+      "description": "Company celebration at retreat"
+    },
+    {
+      "id": "ent_05",
+      "name": "Series C funding round",
+      "type": "event",
+      "description": "Upcoming funding round prompting pivot"
+    },
+    {
+      "id": "ent_06",
+      "name": "Lakeview Resort",
+      "type": "place",
+      "description": "outdoor bar area, Pavilion 2"
+    },
+    {
+      "id": "ent_07",
+      "name": "whiskey glass",
+      "type": "object",
+      "description": "half-finished glass believed to belong to victim, sent for toxicology"
+    },
+    {
+      "id": "ent_08",
+      "name": "retreat",
+      "type": "place",
+      "description": "Location where victim was present"
+    },
+    {
+      "id": "ent_09",
+      "name": "Priya Nair",
+      "type": "person",
+      "description": "Co-Founder & CTO of the company"
+    },
+    {
+      "id": "ent_10",
+      "name": "Vikram Shah",
+      "type": "person",
+      "description": "Individual met by Priya at the party"
+    },
+    {
+      "id": "ent_11",
+      "name": "Aditya",
+      "type": "person",
+      "description": "Victim, co-founder of the company"
+    },
+    {
+      "id": "ent_12",
+      "name": "Kavita Menon",
+      "type": "person",
+      "description": "Lawyer consulted by Priya"
+    },
+    {
+      "id": "ent_13",
+      "name": "Bar",
+      "type": "place",
+      "description": "Location at the party where Priya was near at 11:05 PM"
+    },
+    {
+      "id": "ent_14",
+      "name": "Party",
+      "type": "event",
+      "description": "Social gathering where the incident occurred"
+    },
+    {
+      "id": "ent_15",
+      "name": "Glass",
+      "type": "object",
+      "description": "Aditya's glass, not touched by Priya"
+    },
+    {
+      "id": "ent_16",
+      "name": "Ambulance",
+      "type": "object",
+      "description": "Vehicle that arrived after the meeting with Vikram"
+    },
+    {
+      "id": "ent_17",
+      "name": "Series C raise",
+      "type": "event",
+      "description": "funding round for the company"
+    },
+    {
+      "id": "ent_18",
+      "name": "bar",
+      "type": "place",
+      "description": "location where witness was at 10:50 PM"
+    },
+    {
+      "id": "ent_19",
+      "name": "Meera Iyer",
+      "type": "person",
+      "description": "Head of HR, witness"
+    },
+    {
+      "id": "ent_20",
+      "name": "Restroom",
+      "type": "place",
+      "description": "Location where Meera Iyer went after the bar"
+    },
+    {
+      "id": "ent_21",
+      "name": "Main Pavilion",
+      "type": "place",
+      "description": "Location where Meera Iyer returned and was seen by others"
+    },
+    {
+      "id": "ent_22",
+      "name": "Cyanide",
+      "type": "object",
+      "description": "Poison that Meera Iyer claims she has no access to"
+    },
+    {
+      "id": "ent_23",
+      "name": "Complaint Filing",
+      "type": "event",
+      "description": "Meera Iyer filed a complaint against Aditya and later withdrew it"
+    },
+    {
+      "id": "ent_24",
+      "name": "Restaurant reservation",
+      "type": "object",
+      "description": "dinner location where statement was made"
+    },
+    {
+      "id": "ent_25",
+      "name": "Series B",
+      "type": "event",
+      "description": "funding round referenced in dispute"
+    },
+    {
+      "id": "ent_26",
+      "name": "Skyline",
+      "type": "organization",
+      "description": "portfolio company"
+    },
+    {
+      "id": "ent_27",
+      "name": "firepit",
+      "type": "object",
+      "description": "table near the firepit"
+    },
+    {
+      "id": "ent_28",
+      "name": "window",
+      "type": "object",
+      "description": "window mentioned in report"
+    },
+    {
+      "id": "ent_29",
+      "name": "laboratory-grade chemicals",
+      "type": "object",
+      "description": "chemicals that Meera denies having access to"
+    },
+    {
+      "id": "ent_30",
+      "name": "HR",
+      "type": "organization",
+      "description": "department run by Meera"
+    },
+    {
+      "id": "ent_31",
+      "name": "storage areas",
+      "type": "object",
+      "description": "facility storage areas of a different department"
+    },
+    {
+      "id": "ent_32",
+      "name": "Rohan Desai",
+      "type": "person",
+      "description": "Interviewee, involved in vendor invoice approvals"
+    },
+    {
+      "id": "ent_33",
+      "name": "Vendor invoices",
+      "type": "object",
+      "description": "Invoices approved by Rohan Desai in Q3"
+    },
+    {
+      "id": "ent_34",
+      "name": "Audit",
+      "type": "event",
+      "description": "Audit scheduled by Aditya for Q3 vendor payments"
+    },
+    {
+      "id": "ent_35",
+      "name": "Security logs",
+      "type": "object",
+      "description": "Records of badge scans at the pavilion area"
+    },
+    {
+      "id": "ent_36",
+      "name": "Pavilion area",
+      "type": "place",
+      "description": "Location where Rohan's badge was scanned at 11:38 PM"
+    },
+    {
+      "id": "ent_37",
+      "name": "Veridian Labs",
+      "type": "organization",
+      "description": "Chemical manufacturing company where Rohan interned"
+    },
+    {
+      "id": "ent_38",
+      "name": "Pavilion 2",
+      "type": "place",
+      "description": "bar area of Lakeview Resort"
+    },
+    {
+      "id": "ent_39",
+      "name": "CCTV camera 3",
+      "type": "object",
+      "description": "covers bar counter"
+    },
+    {
+      "id": "ent_40",
+      "name": "firepit table",
+      "type": "object",
+      "description": "table near firepit in Pavilion 2"
+    },
+    {
+      "id": "ent_41",
+      "name": "unknown number",
+      "type": "object",
+      "description": "Prepaid SIM number that called Rohan Desai"
+    },
+    {
+      "id": "ent_42",
+      "name": "emergency services",
+      "type": "organization",
+      "description": "Services contacted by guests after the incident"
+    },
+    {
+      "id": "ent_43",
+      "name": "Skyline Analytics",
+      "type": "organization",
+      "description": "Finance department of the company"
+    },
+    {
+      "id": "ent_44",
+      "name": "Q3 Vendor Payment Review",
+      "type": "event",
+      "description": "Internal memo regarding vendor payment discrepancies"
+    },
+    {
+      "id": "ent_45",
+      "name": "$5,000",
+      "type": "object",
+      "description": "threshold amount for director approval"
+    },
+    {
+      "id": "ent_46",
+      "name": "finance analyst tier",
+      "type": "object",
+      "description": "approval level for vendor payments"
+    },
+    {
+      "id": "ent_47",
+      "name": "Northline Supplies Pvt Ltd",
+      "type": "organization",
+      "description": "newly registered vendor with no prior transaction history with Skyline"
+    },
+    {
+      "id": "ent_48",
+      "name": "Arjun Desai",
+      "type": "person",
+      "description": "cousin of Rohan Desai and company director of Northline Supplies Pvt Ltd"
+    },
+    {
+      "id": "ent_49",
+      "name": "CCTV Camera 3",
+      "type": "object",
+      "description": "Camera covering Pavilion 2 Bar Area"
+    },
+    {
+      "id": "ent_50",
+      "name": "Junction Box",
+      "type": "object",
+      "description": "Physical junction box behind the bar counter"
+    },
+    {
+      "id": "ent_51",
+      "name": "Pavilion 2 Bar Area",
+      "type": "place",
+      "description": "Bar area in Pavilion 2 of Lakeview Resort"
+    },
+    {
+      "id": "ent_52",
+      "name": "Network Switch",
+      "type": "object",
+      "description": "Switch that logs camera connections"
+    },
+    {
+      "id": "ent_53",
+      "name": "Backup Camera 4",
+      "type": "object",
+      "description": "Camera covering pavilion entrance from a distance"
+    },
+    {
+      "id": "ent_54",
+      "name": "Skyline case",
+      "type": "event",
+      "description": "legal case involving equity settlement"
+    },
+    {
+      "id": "ent_55",
+      "name": "dinner",
+      "type": "event",
+      "description": "social gathering two nights before Aditya's death"
+    },
+    {
+      "id": "ent_56",
+      "name": "email correspondence",
+      "type": "object",
+      "description": "emails between parties related to equity settlement"
+    },
+    {
+      "id": "ent_57",
+      "name": "billing records",
+      "type": "object",
+      "description": "billing records timestamped to the evening of the dinner"
+    },
+    {
+      "id": "ent_58",
+      "name": "phone call",
+      "type": "event",
+      "description": "call between Kavita Menon and Priya Nair at 11:41 PM"
+    },
+    {
+      "id": "ent_59",
+      "name": "bar area",
+      "type": "place",
+      "description": "location of multiple sightings"
+    },
+    {
+      "id": "ent_60",
+      "name": "pavilion area",
+      "type": "place",
+      "description": "area Rohan re-entered at 11:38 PM"
+    },
+    {
+      "id": "ent_61",
+      "name": "guest rooms",
+      "type": "place",
+      "description": "area Rohan exited toward at 11:30 PM"
+    },
+    {
+      "id": "ent_62",
+      "name": "Q3 audit",
+      "type": "event",
+      "description": "confidential audit information"
+    }
+  ],
+  "relationships": [
+    {
+      "source_id": "ent_02",
+      "target_id": "ent_01",
+      "relation": "CEO of",
+      "document_id": "doc_01"
+    },
+    {
+      "source_id": "ent_02",
+      "target_id": "cand_01",
+      "relation": "Co-Founder with",
+      "document_id": "doc_01"
+    },
+    {
+      "source_id": "ent_02",
+      "target_id": "cand_02",
+      "relation": "under pressure from",
+      "document_id": "doc_01"
+    },
+    {
+      "source_id": "ent_02",
+      "target_id": "cand_03",
+      "relation": "complaint filed by",
+      "document_id": "doc_01"
+    },
+    {
+      "source_id": "ent_02",
+      "target_id": "ent_03",
+      "relation": "found at",
+      "document_id": "doc_01"
+    },
+    {
+      "source_id": "ent_02",
+      "target_id": "ent_04",
+      "relation": "attended",
+      "document_id": "doc_01"
+    },
+    {
+      "source_id": "cand_01",
+      "target_id": "ent_02",
+      "relation": "near bar with victim's glass",
+      "document_id": "doc_02"
+    },
+    {
+      "source_id": "cand_02",
+      "target_id": "ent_02",
+      "relation": "near bar with victim's glass",
+      "document_id": "doc_02"
+    },
+    {
+      "source_id": "cand_03",
+      "target_id": "ent_02",
+      "relation": "near bar with victim's glass",
+      "document_id": "doc_02"
+    },
+    {
+      "source_id": "cand_04",
+      "target_id": "ent_02",
+      "relation": "near bar with victim's glass",
+      "document_id": "doc_02"
+    },
+    {
+      "source_id": "cand_01",
+      "target_id": "ent_11",
+      "relation": "co-founded company",
+      "document_id": "doc_04"
+    },
+    {
+      "source_id": "cand_01",
+      "target_id": "ent_12",
+      "relation": "consulted lawyer",
+      "document_id": "doc_04"
+    },
+    {
+      "source_id": "cand_01",
+      "target_id": "cand_02",
+      "relation": "met at party",
+      "document_id": "doc_04"
+    },
+    {
+      "source_id": "cand_02",
+      "target_id": "ent_16",
+      "relation": "present when arrived",
+      "document_id": "doc_04"
+    },
+    {
+      "source_id": "cand_02",
+      "target_id": "ent_02",
+      "relation": "argued about pivot",
+      "document_id": "doc_05"
+    },
+    {
+      "source_id": "cand_02",
+      "target_id": "cand_01",
+      "relation": "sat together",
+      "document_id": "doc_05"
+    },
+    {
+      "source_id": "cand_01",
+      "target_id": "ent_02",
+      "relation": "present during poisoning window",
+      "document_id": "doc_05"
+    },
+    {
+      "source_id": "cand_03",
+      "target_id": "ent_11",
+      "relation": "former partner",
+      "document_id": "doc_06"
+    },
+    {
+      "source_id": "cand_03",
+      "target_id": "ent_13",
+      "relation": "was at",
+      "document_id": "doc_06"
+    },
+    {
+      "source_id": "cand_03",
+      "target_id": "ent_20",
+      "relation": "went to",
+      "document_id": "doc_06"
+    },
+    {
+      "source_id": "cand_03",
+      "target_id": "ent_21",
+      "relation": "returned to",
+      "document_id": "doc_06"
+    },
+    {
+      "source_id": "cand_01",
+      "target_id": "ent_11",
+      "relation": "dispute",
+      "document_id": "doc_08"
+    },
+    {
+      "source_id": "cand_01",
+      "target_id": "ent_12",
+      "relation": "email trail",
+      "document_id": "doc_08"
+    },
+    {
+      "source_id": "cand_01",
+      "target_id": "cand_02",
+      "relation": "present during window",
+      "document_id": "doc_08"
+    },
+    {
+      "source_id": "cand_02",
+      "target_id": "cand_01",
+      "relation": "present with",
+      "document_id": "doc_09"
+    },
+    {
+      "source_id": "cand_02",
+      "target_id": "cand_04",
+      "relation": "observed",
+      "document_id": "doc_09"
+    },
+    {
+      "source_id": "cand_02",
+      "target_id": "ent_26",
+      "relation": "mentions",
+      "document_id": "doc_09"
+    },
+    {
+      "source_id": "cand_03",
+      "target_id": "ent_11",
+      "relation": "withdrew complaint against",
+      "document_id": "doc_10"
+    },
+    {
+      "source_id": "cand_03",
+      "target_id": "ent_18",
+      "relation": "was alone at",
+      "document_id": "doc_10"
+    },
+    {
+      "source_id": "cand_03",
+      "target_id": "ent_11",
+      "relation": "did not touch drink",
+      "document_id": "doc_10"
+    },
+    {
+      "source_id": "cand_03",
+      "target_id": "ent_27",
+      "relation": "was near at 11:35 PM",
+      "document_id": "doc_10"
+    },
+    {
+      "source_id": "cand_03",
+      "target_id": "ent_29",
+      "relation": "has no access to",
+      "document_id": "doc_10"
+    },
+    {
+      "source_id": "cand_04",
+      "target_id": "ent_33",
+      "relation": "approved",
+      "document_id": "doc_11"
+    },
+    {
+      "source_id": "cand_04",
+      "target_id": "ent_35",
+      "relation": "scanned into",
+      "document_id": "doc_11"
+    },
+    {
+      "source_id": "cand_04",
+      "target_id": "ent_37",
+      "relation": "interned at",
+      "document_id": "doc_11"
+    },
+    {
+      "source_id": "cand_02",
+      "target_id": "cand_01",
+      "relation": "present together",
+      "document_id": "doc_12"
+    },
+    {
+      "source_id": "cand_04",
+      "target_id": "ent_38",
+      "relation": "badge scan",
+      "document_id": "doc_12"
+    },
+    {
+      "source_id": "cand_03",
+      "target_id": "bar counter",
+      "relation": "visible retrieving water",
+      "document_id": "doc_12"
+    },
+    {
+      "source_id": "cand_04",
+      "target_id": "ent_41",
+      "relation": "received call",
+      "document_id": "doc_13"
+    },
+    {
+      "source_id": "cand_04",
+      "target_id": "ent_41",
+      "relation": "sent text",
+      "document_id": "doc_13"
+    },
+    {
+      "source_id": "cand_01",
+      "target_id": "ent_12",
+      "relation": "called",
+      "document_id": "doc_13"
+    },
+    {
+      "source_id": "ent_02",
+      "target_id": "cand_04",
+      "relation": "not shared with",
+      "document_id": "doc_14"
+    },
+    {
+      "source_id": "ent_02",
+      "target_id": "External Audit Firm",
+      "relation": "sent memo to",
+      "document_id": "doc_14"
+    },
+    {
+      "source_id": "cand_04",
+      "target_id": "ent_47",
+      "relation": "approved vendor payments",
+      "document_id": "doc_15"
+    },
+    {
+      "source_id": "ent_48",
+      "target_id": "ent_47",
+      "relation": "company director",
+      "document_id": "doc_15"
+    },
+    {
+      "source_id": "cand_04",
+      "target_id": "ent_48",
+      "relation": "cousin",
+      "document_id": "doc_15"
+    },
+    {
+      "source_id": "cand_04",
+      "target_id": "ent_48",
+      "relation": "receives transfers",
+      "document_id": "doc_15"
+    },
+    {
+      "source_id": "ent_49",
+      "target_id": "ent_50",
+      "relation": "lost connection due to disconnection",
+      "document_id": "doc_16"
+    },
+    {
+      "source_id": "ent_50",
+      "target_id": "ent_51",
+      "relation": "located behind bar counter",
+      "document_id": "doc_16"
+    },
+    {
+      "source_id": "ent_53",
+      "target_id": "ent_51",
+      "relation": "covers entrance from a distance",
+      "document_id": "doc_16"
+    },
+    {
+      "source_id": "ent_12",
+      "target_id": "cand_01",
+      "relation": "representing",
+      "document_id": "doc_17"
+    },
+    {
+      "source_id": "cand_01",
+      "target_id": "ent_11",
+      "relation": "commented about",
+      "document_id": "doc_17"
+    },
+    {
+      "source_id": "cand_01",
+      "target_id": "ent_56",
+      "relation": "has",
+      "document_id": "doc_17"
+    },
+    {
+      "source_id": "cand_01",
+      "target_id": "ent_57",
+      "relation": "has",
+      "document_id": "doc_17"
+    },
+    {
+      "source_id": "cand_01",
+      "target_id": "ent_58",
+      "relation": "had",
+      "document_id": "doc_17"
+    },
+    {
+      "source_id": "cand_01",
+      "target_id": "ent_02",
+      "relation": "threatened",
+      "document_id": "doc_18"
+    },
+    {
+      "source_id": "cand_04",
+      "target_id": "ent_39",
+      "relation": "disconnected",
+      "document_id": "doc_19"
+    },
+    {
+      "source_id": "cand_01",
+      "target_id": "cand_02",
+      "relation": "seen together",
+      "document_id": "doc_19"
+    },
+    {
+      "source_id": "cand_04",
+      "target_id": "ent_61",
+      "relation": "exited toward",
+      "document_id": "doc_19"
+    },
+    {
+      "source_id": "cand_04",
+      "target_id": "ent_60",
+      "relation": "re-entered",
+      "document_id": "doc_19"
+    },
+    {
+      "source_id": "cand_04",
+      "target_id": "ent_62",
+      "relation": "learned about",
+      "document_id": "doc_19"
+    }
+  ],
+  "evidence_items": [
+    {
+      "id": "ev_001",
+      "document_id": "doc_01",
+      "description": "Aditya scheduled internal financial audit citing irregularities in Q3 vendor payments",
+      "status": "verified",
+      "linked_candidate_ids": []
+    },
+    {
+      "id": "ev_002",
+      "document_id": "doc_01",
+      "description": "Formal complaint filed against Aditya by Meera Iyer for conduct concerns, later withdrawn",
+      "status": "verified",
+      "linked_candidate_ids": [
+        "cand_03"
+      ]
+    },
+    {
+      "id": "ev_003",
+      "document_id": "doc_01",
+      "description": "Aditya found unresponsive at 11:47 PM near outdoor bar area during closing night party",
+      "status": "verified",
+      "linked_candidate_ids": []
+    },
+    {
+      "id": "ev_004",
+      "document_id": "doc_01",
+      "description": "Aditya was under pressure from board led by investor Vikram Shah to pivot product line",
+      "status": "verified",
+      "linked_candidate_ids": [
+        "cand_02"
+      ]
+    },
+    {
+      "id": "ev_005",
+      "document_id": "doc_02",
+      "description": "half-finished whiskey glass recovered from bar counter",
+      "status": "verified",
+      "linked_candidate_ids": []
+    },
+    {
+      "id": "ev_006",
+      "document_id": "doc_02",
+      "description": "four witnesses identified four individuals near bar with victim's glass",
+      "status": "verified",
+      "linked_candidate_ids": [
+        "cand_01",
+        "cand_02",
+        "cand_03",
+        "cand_04"
+      ]
+    },
+    {
+      "id": "ev_007",
+      "document_id": "doc_03",
+      "description": "Cyanide present in whiskey glass recovered from scene",
+      "status": "verified",
+      "linked_candidate_ids": []
+    },
+    {
+      "id": "ev_008",
+      "document_id": "doc_03",
+      "description": "Poisoning window between 11:12 PM and 11:27 PM",
+      "status": "verified",
+      "linked_candidate_ids": []
+    },
+    {
+      "id": "ev_009",
+      "document_id": "doc_03",
+      "description": "No other guests exhibited symptoms",
+      "status": "verified",
+      "linked_candidate_ids": []
+    },
+    {
+      "id": "ev_010",
+      "document_id": "doc_03",
+      "description": "Time of death 11:44 PM (\u00b13 minutes)",
+      "status": "verified",
+      "linked_candidate_ids": []
+    },
+    {
+      "id": "ev_011",
+      "document_id": "doc_03",
+      "description": "Witness reports victim collapsed at 11:47 PM",
+      "status": "verified",
+      "linked_candidate_ids": []
+    },
+    {
+      "id": "ev_012",
+      "document_id": "doc_04",
+      "description": "Priya met Vikram from 11:15 PM until after ambulance arrived",
+      "status": "unverified",
+      "linked_candidate_ids": [
+        "cand_02"
+      ]
+    },
+    {
+      "id": "ev_013",
+      "document_id": "doc_04",
+      "description": "Priya did not touch Aditya's glass",
+      "status": "unverified",
+      "linked_candidate_ids": [
+        "cand_01"
+      ]
+    },
+    {
+      "id": "ev_014",
+      "document_id": "doc_04",
+      "description": "Aditya's death delays Priya's equity settlement",
+      "status": "unverified",
+      "linked_candidate_ids": [
+        "cand_01"
+      ]
+    },
+    {
+      "id": "ev_015",
+      "document_id": "doc_05",
+      "description": "Vikram Shah's statement about being with Priya Nair during poisoning window",
+      "status": "verified",
+      "linked_candidate_ids": [
+        "cand_01",
+        "cand_02"
+      ]
+    },
+    {
+      "id": "ev_016",
+      "document_id": "doc_05",
+      "description": "Vikram Shah's claim of arguing with Aditya about pivot",
+      "status": "verified",
+      "linked_candidate_ids": [
+        "cand_02"
+      ]
+    },
+    {
+      "id": "ev_017",
+      "document_id": "doc_06",
+      "description": "Meera Iyer states she did not touch Aditya's glass and had no access to cyanide",
+      "status": "verified",
+      "linked_candidate_ids": [
+        "cand_03"
+      ]
+    },
+    {
+      "id": "ev_018",
+      "document_id": "doc_07",
+      "description": "Rohan Desai reports he was at the party, had a drink at 11:10 PM, sat near the lake with other junior analysts, heard about the audit scheduled by Aditya, left at 11:30 PM due to headache.",
+      "status": "verified",
+      "linked_candidate_ids": [
+        "cand_04"
+      ]
+    },
+    {
+      "id": "ev_019",
+      "document_id": "doc_08",
+      "description": "Aditya was dragging his feet on formalizing my refresh grant after the Series B",
+      "status": "verified",
+      "linked_candidate_ids": [
+        "cand_01"
+      ]
+    },
+    {
+      "id": "ev_020",
+      "document_id": "doc_08",
+      "description": "I said that at dinner, with Kavita sitting right next to me",
+      "status": "unverified",
+      "linked_candidate_ids": [
+        "cand_01"
+      ]
+    },
+    {
+      "id": "ev_021",
+      "document_id": "doc_08",
+      "description": "With Vikram, going over the board deck during 11:12-11:27 PM window",
+      "status": "verified",
+      "linked_candidate_ids": [
+        "cand_01",
+        "cand_02"
+      ]
+    },
+    {
+      "id": "ev_022",
+      "document_id": "doc_08",
+      "description": "I wouldn't know where to even start to access cyanide",
+      "status": "verified",
+      "linked_candidate_ids": [
+        "cand_01"
+      ]
+    },
+    {
+      "id": "ev_023",
+      "document_id": "doc_09",
+      "description": "Vikram Shah's statement about being with Priya Nair at the table near the firepit during 11:12-11:27 PM",
+      "status": "verified",
+      "linked_candidate_ids": [
+        "cand_01"
+      ]
+    },
+    {
+      "id": "ev_024",
+      "document_id": "doc_09",
+      "description": "Vikram Shah's observation that Rohan Desai seemed unusually anxious the whole evening",
+      "status": "verified",
+      "linked_candidate_ids": [
+        "cand_04"
+      ]
+    },
+    {
+      "id": "ev_025",
+      "document_id": "doc_10",
+      "description": "withdrawn complaint against Aditya documented internally",
+      "status": "verified",
+      "linked_candidate_ids": [
+        "cand_03"
+      ]
+    },
+    {
+      "id": "ev_026",
+      "document_id": "doc_10",
+      "description": "Meera was alone at the bar at 11:35 PM",
+      "status": "verified",
+      "linked_candidate_ids": [
+        "cand_03"
+      ]
+    },
+    {
+      "id": "ev_027",
+      "document_id": "doc_10",
+      "description": "Meera did not touch Aditya's drink",
+      "status": "verified",
+      "linked_candidate_ids": [
+        "cand_03"
+      ]
+    },
+    {
+      "id": "ev_028",
+      "document_id": "doc_10",
+      "description": "Meera has no access to laboratory-grade chemicals",
+      "status": "verified",
+      "linked_candidate_ids": [
+        "cand_03"
+      ]
+    },
+    {
+      "id": "ev_029",
+      "document_id": "doc_11",
+      "description": "Rohan Desai approved 6 vendor invoices in Q3",
+      "status": "verified",
+      "linked_candidate_ids": [
+        "cand_04"
+      ]
+    },
+    {
+      "id": "ev_030",
+      "document_id": "doc_11",
+      "description": "Rohan Desai's badge was scanned back into the pavilion area at 11:38 PM",
+      "status": "verified",
+      "linked_candidate_ids": [
+        "cand_04"
+      ]
+    },
+    {
+      "id": "ev_031",
+      "document_id": "doc_11",
+      "description": "Rohan Desai claimed he left the party at 11:30 PM",
+      "status": "unverified",
+      "linked_candidate_ids": [
+        "cand_04"
+      ]
+    },
+    {
+      "id": "ev_032",
+      "document_id": "doc_12",
+      "description": "6-minute gap in CCTV camera 3 recording at 11:12 PM",
+      "status": "unverified",
+      "linked_candidate_ids": []
+    },
+    {
+      "id": "ev_033",
+      "document_id": "doc_12",
+      "description": "Badge scans of Priya Nair, Vikram Shah, Rohan Desai at specified times",
+      "status": "verified",
+      "linked_candidate_ids": [
+        "cand_01",
+        "cand_02",
+        "cand_04"
+      ]
+    },
+    {
+      "id": "ev_034",
+      "document_id": "doc_12",
+      "description": "Priya Nair and Vikram Shah visible together at firepit table at 11:29 PM",
+      "status": "verified",
+      "linked_candidate_ids": [
+        "cand_01",
+        "cand_02"
+      ]
+    },
+    {
+      "id": "ev_035",
+      "document_id": "doc_12",
+      "description": "Rohan Desai badge scan exit and re-entry times",
+      "status": "verified",
+      "linked_candidate_ids": [
+        "cand_04"
+      ]
+    },
+    {
+      "id": "ev_036",
+      "document_id": "doc_13",
+      "description": "Call from unknown number to Rohan Desai at 10:42 PM",
+      "status": "unverified",
+      "linked_candidate_ids": [
+        "cand_04"
+      ]
+    },
+    {
+      "id": "ev_037",
+      "document_id": "doc_13",
+      "description": "Text from Rohan Desai to unknown number at 11:00 PM",
+      "status": "unverified",
+      "linked_candidate_ids": [
+        "cand_04"
+      ]
+    },
+    {
+      "id": "ev_038",
+      "document_id": "doc_13",
+      "description": "Call from Priya Nair to Kavita Menon at 11:41 PM",
+      "status": "verified",
+      "linked_candidate_ids": [
+        "cand_01"
+      ]
+    },
+    {
+      "id": "ev_039",
+      "document_id": "doc_14",
+      "description": "Internal memo (doc_14) detailing vendor payment discrepancies",
+      "status": "verified",
+      "linked_candidate_ids": [
+        "cand_04"
+      ]
+    },
+    {
+      "id": "ev_040",
+      "document_id": "doc_15",
+      "description": "Three vendor payment batches to Northline Supplies Pvt Ltd totaling $60,350",
+      "status": "verified",
+      "linked_candidate_ids": [
+        "cand_04"
+      ]
+    },
+    {
+      "id": "ev_041",
+      "document_id": "doc_15",
+      "description": "Three incoming transfers totaling $9,200 from an account linked to Arjun Desai within 5 days of each vendor payment batch",
+      "status": "verified",
+      "linked_candidate_ids": [
+        "cand_04"
+      ]
+    },
+    {
+      "id": "ev_042",
+      "document_id": "doc_15",
+      "description": "Pattern consistent with kickback scheme involving inflated invoices and shell vendor",
+      "status": "verified",
+      "linked_candidate_ids": [
+        "cand_04"
+      ]
+    },
+    {
+      "id": "ev_043",
+      "document_id": "doc_16",
+      "description": "No camera footage of the disconnection event",
+      "status": "unverified",
+      "linked_candidate_ids": []
+    },
+    {
+      "id": "ev_044",
+      "document_id": "doc_17",
+      "description": "email correspondence",
+      "status": "verified",
+      "linked_candidate_ids": [
+        "cand_01"
+      ]
+    },
+    {
+      "id": "ev_045",
+      "document_id": "doc_17",
+      "description": "billing records",
+      "status": "verified",
+      "linked_candidate_ids": [
+        "cand_01"
+      ]
+    },
+    {
+      "id": "ev_046",
+      "document_id": "doc_17",
+      "description": "phone call",
+      "status": "verified",
+      "linked_candidate_ids": [
+        "cand_01"
+      ]
+    },
+    {
+      "id": "ev_047",
+      "document_id": "doc_17",
+      "description": "comment about Aditya",
+      "status": "verified",
+      "linked_candidate_ids": [
+        "cand_01"
+      ]
+    },
+    {
+      "id": "ev_048",
+      "document_id": "doc_18",
+      "description": "Anonymous tip alleging Priya Nair threatened Aditya Rao",
+      "status": "unverified",
+      "linked_candidate_ids": [
+        "cand_01"
+      ]
+    },
+    {
+      "id": "ev_049",
+      "document_id": "doc_19",
+      "description": "Rohan Desai badge scan at 11:30 PM",
+      "status": "verified",
+      "linked_candidate_ids": [
+        "cand_04"
+      ]
+    },
+    {
+      "id": "ev_050",
+      "document_id": "doc_19",
+      "description": "Rohan Desai badge scan at 11:38 PM",
+      "status": "verified",
+      "linked_candidate_ids": [
+        "cand_04"
+      ]
+    },
+    {
+      "id": "ev_051",
+      "document_id": "doc_19",
+      "description": "CCTV camera 3 outage from 11:12 to 11:18 PM",
+      "status": "verified",
+      "linked_candidate_ids": []
+    },
+    {
+      "id": "ev_052",
+      "document_id": "doc_19",
+      "description": "Priya Nair and Vikram Shah seen together at firepit",
+      "status": "verified",
+      "linked_candidate_ids": [
+        "cand_01",
+        "cand_02"
+      ]
+    },
+    {
+      "id": "ev_053",
+      "document_id": "doc_19",
+      "description": "Priya Nair on phone with attorney at 11:41 PM",
+      "status": "verified",
+      "linked_candidate_ids": [
+        "cand_01"
+      ]
+    },
+    {
+      "id": "ev_054",
+      "document_id": "doc_19",
+      "description": "Meera Iyer seen near bar at 11:18 PM",
+      "status": "verified",
+      "linked_candidate_ids": [
+        "cand_03"
+      ]
+    },
+    {
+      "id": "ev_055",
+      "document_id": "doc_19",
+      "description": "Rohan Desai receives call from untraceable prepaid number at 10:42 PM",
+      "status": "verified",
+      "linked_candidate_ids": [
+        "cand_04"
+      ]
+    },
+    {
+      "id": "ev_056",
+      "document_id": "doc_19",
+      "description": "Rohan Desai texts unknown contact at 11:00 PM",
+      "status": "verified",
+      "linked_candidate_ids": [
+        "cand_04"
+      ]
+    }
+  ]
+}
