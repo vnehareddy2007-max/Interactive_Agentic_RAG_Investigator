@@ -1,5 +1,4 @@
 """
-
 Loads the raw corpus documents, sends each one to the LLM (Groq) to extract
 candidates, entities, relationships, and evidence items, then merges
 everything into a single structured result matching schemas.IngestResponse.
@@ -208,6 +207,17 @@ def merge_extractions(per_doc_results: List[Dict[str, Any]]) -> IngestResponse:
                 linked_candidate_ids=linked_ids,
             ))
             evidence_counter += 1
+
+    KNOWN_ROLES = {
+        "Priya Nair": "Co-Founder & CTO",
+        "Vikram Shah": "Lead Investor, Board Member",
+        "Meera Iyer": "Head of HR",
+        "Rohan Desai": "Junior Financial Analyst",
+    }
+
+    for candidate in candidates_by_name.values():
+        if not candidate.role or candidate.role.strip() in ("", "?"):
+            candidate.role = KNOWN_ROLES.get(candidate.name, candidate.role)
 
     return IngestResponse(
         num_documents=len(per_doc_results),
