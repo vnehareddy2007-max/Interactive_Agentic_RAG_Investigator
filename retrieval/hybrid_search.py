@@ -14,7 +14,7 @@ from typing import List
 
 import numpy as np
 from rank_bm25 import BM25Okapi
-from sentence_transformers import SentenceTransformer
+from fastembed import TextEmbedding
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from schemas import RetrievedChunk
@@ -35,7 +35,7 @@ class HybridRetriever:
     """Builds keyword + semantic indexes once, then serves fast repeated
     queries against them. Each document is treated as a single chunk."""
 
-    def __init__(self, corpus_dir: str = CORPUS_DIR, embedding_model: str = "all-MiniLM-L6-v2"):
+    def __init__(self, corpus_dir: str = CORPUS_DIR, embedding_model: str = "BAAI/bge-small-en-v1.5"):
         self.documents = load_documents(corpus_dir)
         self.doc_ids = [d["document_id"] for d in self.documents]
         self.texts = [d["text"] for d in self.documents]
@@ -43,10 +43,8 @@ class HybridRetriever:
         tokenized_corpus = [_tokenize(t) for t in self.texts]
         self.bm25 = BM25Okapi(tokenized_corpus)
 
-        self.embedder = SentenceTransformer(embedding_model)
-        self.embeddings = self.embedder.encode(
-            self.texts, convert_to_numpy=True, normalize_embeddings=True
-        )
+        self.embedder = TextEmbedding(model_name=embedding_model)
+        self.embeddings = np.array(list(self.embedder.embed(self.texts)))
 
     def keyword_search(self, query: str, top_k: int = 5) -> List[RetrievedChunk]:
         scores = np.array(self.bm25.get_scores(_tokenize(query)))
@@ -61,7 +59,7 @@ class HybridRetriever:
         ]
 
     def semantic_search(self, query: str, top_k: int = 5) -> List[RetrievedChunk]:
-        query_embedding = self.embedder.encode([query], convert_to_numpy=True, normalize_embeddings=True)[0]
+        query_embedding = list(self.embedder.embed([query]))[0]
         scores = self.embeddings @ query_embedding
         top_indices = np.argsort(scores)[::-1][:top_k]
         return [
@@ -78,7 +76,7 @@ class HybridRetriever:
         semantic, 0.0 = pure keyword, 0.5 = balanced (default)."""
         keyword_scores = np.array(self.bm25.get_scores(_tokenize(query)))
 
-        query_embedding = self.embedder.encode([query], convert_to_numpy=True, normalize_embeddings=True)[0]
+        query_embedding = list(self.embedder.embed([query]))[0]
         semantic_scores = self.embeddings @ query_embedding
 
         keyword_norm = _min_max_normalize(keyword_scores)

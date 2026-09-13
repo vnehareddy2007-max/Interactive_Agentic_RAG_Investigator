@@ -2,7 +2,7 @@ fastapi
 uvicorn[standard]
 pydantic
 networkx
-sentence-transformers
+fastembed
 rank-bm25
 scikit-learn
 numpy
