@@ -9,7 +9,10 @@ import streamlit as st
 import networkx as nx
 import matplotlib.pyplot as plt
 
-BACKEND_URL = "http://127.0.0.1:8000"
+try:
+    BACKEND_URL = st.secrets["BACKEND_URL"]
+except (FileNotFoundError, KeyError):
+    BACKEND_URL = "http://127.0.0.1:8000"
 
 st.set_page_config(page_title="Solve the Case", layout="wide")
 
@@ -70,7 +73,6 @@ with tabs[0]:
         "Use the tabs above to interrogate suspects, search evidence, run the "
         "Investigator and Fact-Checker agents, and submit your final verdict."
     )
-
 
 with tabs[1]:
     st.subheader("Evidence Graph")
