@@ -155,6 +155,13 @@ def fact_check(theory: str, suspect_id: str = None) -> FactCheckResult:
         if name in name_to_id
     ]
 
+    junk_values = {"overall_assessment", ":", "contradictions", "alternative_candidates", "weaknesses"}
+    raw_weaknesses = parsed.get("weaknesses", [])
+    weaknesses = [
+        w.strip() for w in raw_weaknesses
+        if isinstance(w, str) and len(w.strip()) > 15 and w.strip().rstrip(":").strip() not in junk_values
+    ]
+
     overall_assessment = parsed.get("overall_assessment", "").strip()
     if not overall_assessment:
         overall_assessment = (
@@ -165,12 +172,15 @@ def fact_check(theory: str, suspect_id: str = None) -> FactCheckResult:
     return FactCheckResult(
         contradictions=contradictions,
         alternative_candidate_ids=alt_ids,
-        weaknesses=parsed.get("weaknesses", []),
+        weaknesses=weaknesses,
         overall_assessment=overall_assessment,
     )
 
 
 if __name__ == "__main__":
+    # Reuses the theory we already confirmed works, instead of re-running
+    # the Investigator (which costs extra LLM calls) every time we test
+    # just the Fact-Checker.
     sample_theory = (
         "Rohan Desai was the person who physically disconnected CCTV camera 3 "
         "behind the bar counter during the 11:12-11:18 PM window, thereby "

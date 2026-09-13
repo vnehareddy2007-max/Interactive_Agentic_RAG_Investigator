@@ -12,3 +12,4 @@ python-multipart
 python-dotenv
 openai
 groq
+matplotlib
