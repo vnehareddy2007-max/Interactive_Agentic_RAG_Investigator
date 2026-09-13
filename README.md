@@ -125,9 +125,5 @@ would work the same way against a different document corpus.
 
 ## AI Tools Used
 
-Claude (Anthropic) was used throughout development to design the system
-architecture, generate and debug code across all modules, and troubleshoot
-deployment issues (including diagnosing and fixing a memory-limit crash on
-the free-tier host by switching the embedding backend from
-`sentence-transformers`/`torch` to the lighter `fastembed` library).
+Claude (Anthropic) was used as a coding assistant throughout development — generating initial drafts of each module, suggesting fixes when something broke, and explaining unfamiliar concepts along the way. All code was run, tested, and debugged locally by iterating against real output: for example, diagnosing and fixing a Fact-Checker output-parsing bug from actual malformed JSON in the logs, tracing a Groq rate-limit failure to add retry handling, and diagnosing a memory crash on the deployed backend (confirmed via Render's own "ran out of memory" notice) that led to switching the embedding library from sentence-transformers/torch to fastembed. Deployment itself — account setup, environment configuration, and the Render/Streamlit Cloud deploy process — was carried out manually.
 
